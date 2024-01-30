@@ -4,7 +4,7 @@ For Nebius AI virtual machines in [GPU clusters](https://nebius.ai/docs/compute/
 
 This file describes how Nebius AI hardware and InfiniBand network are designed from the VM perspective. After applying it, all workloads that are using NCCL in multi-host environment will be more stable and have better performance results.
 
-To run stable NCCL tests and improve workloads performance, implement Nebius AI topology on your VMs or inside containers you run on the VMs:
+To run stable NCCL tests and improve workloads performance, apply Nebius AI topology on your VMs or inside containers you run on the VMs:
 
 1. Download `nccl-topo-h100-v1.xml`. 
 
